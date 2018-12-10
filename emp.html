@@ -1,0 +1,91 @@
+<! DOCTYPE html>
+<head>
+<title>EMPLOYEE DETAILS </title>
+<SCRIPT>
+function incometax()
+{
+r=document.getElementById("r").value;
+
+if(r<180000)
+{
+document.write("nil");
+}
+else if(r)>180000 && r<=300000)
+{
+document.write("income tax is"+0.1*r);
+}
+else if(r>300000 && r<=500000)
+{
+document.write("income tax is"0.2*r);
+}
+else
+{
+document.write("income tax is"0.3*r);
+}
+a.innerhtml=("income tax is"+r);
+}
+</script>
+</head>
+<body>
+<h1> EMPLOYEE DETAILS</h1>
+<table border="0"><!-- border value as 0 -->
+<tr>
+<td> title</td>
+<td>
+<select required> <!--dropdown start-->
+<option value= "title"> title </option>
+<option value= "Mr."> Mr. </option>
+<option value= "Ms."> Ms. </option>
+<option value= "Mrs."> Mrs. </option>
+</select> <!--dropdown end-->
+</tr>
+</td>
+
+<tr><!-- firstname start-->
+<td> firstname: </td>
+<td>
+<form>
+<input type="text" name="firstname" id="firstname" required/>
+</form>
+</tr><!-- firstname ends-->
+ </td>
+<tr><!-- lastname start-->
+<td> lastname: </td>
+<td>
+<form>
+<input type="text" name="lastname" id="lastname" required/>
+</form>
+</tr><!-- lastname ends-->
+</td>
+<tr><!-- gross sal start-->
+<td> gross salary: </td>
+<td>
+<form>
+<input type="text" name="gross salary" id="r" required/>
+</form>
+</tr><!-- gross salary ends-->
+</td>
+<tr><!-- address start-->
+<td> address: </td>
+<td>
+<textarea rows="2" col="80" id="address" required>
+</textarea>
+
+</tr><!--address ends-->
+</td>
+<tr><!-- button start-->
+<td></td>
+<td>
+<input type="button" value="salary slip" onclick="incometax();"/>
+</td>
+
+</tr><!-- button ends-->
+
+</table>
+</body>
+</html>
+
+
+
+
+ 

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<title>Candidate Information</title>
+<body>
+<table border="1" bgcolor="aqua">
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" maxlength=15 required></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="pwd"  required></td>
+</tr>
+<tr>
+<td>Phone Number:</td>
+<td><input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="gender" value="male" required> Male
+  <input type="radio" name="gender" value="female" required> Female 
+</td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td><input id="meeting" type="date" value=" " required></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input id="email" name="email" type="email" required></td>
+</tr>
+<tr>
+<td> Select Highest Qualification</td>
+<td><input id="Highest_Qualification" name="Highest_Qualification" type="text" list="country" required/>
+<datalist id="Highest_Qualification"></datalist>
+</td>
+</tr>
+<tr>
+<td>Courses Interested in:</td>
+<td>
+<input type="checkbox" name=“courses" value=“Reading Books" required> Java
+<input type="checkbox" name=“courses" value=“Net Surfing" required> HTML 5
+<input type="checkbox" name=“courses" value=“Net Surfing" required> CSS 3
+<input type="checkbox" name=“courses" value=“Net Surfing" required> Angular JS
+<input type="checkbox" name=“courses" value=“Net Surfing" required> Jquery
+</td>
+</tr>
+<tr>
+<td>Comments:(Mention External Certifications if any)</td>
+<td><input type="text" name="comments"></td>
+</tr>
+<tr>
+<td>Upload Degree/External Certificates:</td>
+<td><input type="file" name="Certificates" required/></td>
+</tr>
+<tr>
+<td> </td>
+<td><button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+

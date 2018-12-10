@@ -1,0 +1,13 @@
+<? XML version="1.0" encoding="ISO-8859-1"?>
+<employee_table>
+<employee_code>101</employee_code>
+<employee_name>preetham</employee_name>
+<Date_of_joining>10-JAN-2010</Date_of_joining>
+<employee_salary>18000</employee_salary>
+<grade>A</grade>
+<employee_code>102</employee_code>
+<employee_name>Aakash</employee_name>
+<Date_of_joining>10-nov-2005</Date_of_joining>
+<employee_salary>48000</employee_salary>
+<grade>c</grade>
+</employee_table>
